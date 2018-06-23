@@ -26,14 +26,17 @@ class Owner
   
   def buy_fish(fish)
     @pets[:fishes].push(fish)
+    puts @pets
   end
 
   def buy_cat(cat)
     @pets[:cats].push(cat)
+    puts @pets
   end
 
   def buy_dog(dog)
     @pets[:dogs].push(dog)
+    puts @pets
   end
 
   def list_pets
