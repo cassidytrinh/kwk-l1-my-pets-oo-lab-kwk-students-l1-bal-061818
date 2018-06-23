@@ -34,7 +34,6 @@ class Owner
 
   def buy_dog(dog)
     @pets[:dogs].push(dog)
-    puts @pets[:dogs]
   end
 
   def list_pets
