@@ -20,6 +20,10 @@ class Owner
     @name
   end
 
+  def pets
+    @pets
+  end
+  
   def buy_fish(fish)
     @pets[:fishes].push(fish)
   end
