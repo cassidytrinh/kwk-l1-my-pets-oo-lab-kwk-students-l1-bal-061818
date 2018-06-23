@@ -23,7 +23,7 @@ class Owner
   def pets
     @pets
   end
-  
+
   def buy_fish(fish)
     @pets[:fishes].push(fish)
     puts @pets
