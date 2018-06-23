@@ -19,5 +19,19 @@ class Owner
     @name
   end
 
+  def buy_fish(fish)
+    @pets[:fishes].push(fish)
+  end
+
+  def buy_cat(cat)
+    @pets[:cats].push(cat)
+  end
+
+  def buy_dog(dog)
+    @pets[:dogs].push(dog)
+  end
+
+  def list_pets
+    return "I have #{@pets[:fish].count} fish, #{@pets[:dogs].count} dog(s), and #{@pets[:cats].count} cat(s)."
 
  end
